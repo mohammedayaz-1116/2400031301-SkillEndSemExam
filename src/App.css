@@ -1,0 +1,32 @@
+/* src/App.css */
+
+.app-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.event-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.event-card {
+  padding: 15px;
+  background: #f4f4f4;
+  border-radius: 8px;
+}
+
+.event-card button {
+  margin-top: 10px;
+  padding: 8px 14px;
+  background: #0066cc;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.event-card button:hover {
+  opacity: 0.9;
+}
